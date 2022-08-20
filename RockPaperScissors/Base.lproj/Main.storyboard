@@ -89,6 +89,9 @@
                                                     <constraint firstAttribute="width" secondItem="838-cR-60S" secondAttribute="height" id="owW-z0-ZWP"/>
                                                 </constraints>
                                                 <state key="normal" image="Rock"/>
+                                                <connections>
+                                                    <action selector="clickRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rJI-hx-8nm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -106,6 +109,9 @@
                                                     <constraint firstAttribute="width" secondItem="JiQ-OP-HdU" secondAttribute="height" id="DK1-Tz-7cp"/>
                                                 </constraints>
                                                 <state key="normal" image="Paper"/>
+                                                <connections>
+                                                    <action selector="clickPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T8A-nB-WNn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwW-wc-O79" userLabel="Scissors">
                                                 <rect key="frame" x="194.5" y="0.0" width="139" height="139"/>
@@ -113,6 +119,9 @@
                                                     <constraint firstAttribute="width" secondItem="VwW-wc-O79" secondAttribute="height" id="dm0-HI-3CK"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="Scissors"/>
+                                                <connections>
+                                                    <action selector="clickScissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8p-EY-JlN"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -135,6 +144,9 @@
                                                 <state key="normal" title="Restart">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="clickRestart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oPK-Pk-tYE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
