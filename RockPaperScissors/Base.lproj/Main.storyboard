@@ -85,6 +85,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="838-cR-60S" userLabel="Rock">
                                                 <rect key="frame" x="106.5" y="0.0" width="139" height="139"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="rockButton"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="838-cR-60S" secondAttribute="height" id="owW-z0-ZWP"/>
                                                 </constraints>
@@ -105,6 +106,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiQ-OP-HdU" userLabel="Paper">
                                                 <rect key="frame" x="18.5" y="0.0" width="139" height="139"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="paperButton"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JiQ-OP-HdU" secondAttribute="height" id="DK1-Tz-7cp"/>
                                                 </constraints>
@@ -115,6 +117,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwW-wc-O79" userLabel="Scissors">
                                                 <rect key="frame" x="194.5" y="0.0" width="139" height="139"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="scissorsButton"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="VwW-wc-O79" secondAttribute="height" id="dm0-HI-3CK"/>
                                                 </constraints>
@@ -156,7 +159,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="GaD-Xy-2Gn" firstAttribute="leading" secondItem="mPc-aJ-QpG" secondAttribute="leading" id="45o-7m-BTV"/>
                                     <constraint firstItem="GaD-Xy-2Gn" firstAttribute="top" secondItem="hD3-LA-nCt" secondAttribute="bottom" id="FbT-Su-Ohl"/>

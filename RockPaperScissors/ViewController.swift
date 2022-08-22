@@ -16,22 +16,35 @@ class ViewController: UIViewController {
 
     // button action for the image of rock
     @IBAction func clickRock(_ sender: UIButton) {
-        print("rock")
+        // string for the player's choice
+        let playerChoice = "rock"
+        
+        // give the string to the function that will start the calculations
+        
     }
     
     // button action for the image of paper
     @IBAction func clickPaper(_ sender: UIButton) {
-        print("paper")
+        // string for the player's choice
+        let playerChoice = "paper"
+        
+        // give the string to the function that will start the calculations
+        
     }
     
     // button action for the image of scissors
     @IBAction func clickScissors(_ sender: UIButton) {
-        print("scissors")
+        // string for the player's choice
+        let playerChoice = "scissors"
+        
+        // give the string to the function that will start the calculations
+        
     }
     
     // button action for restart
     @IBAction func clickRestart(_ sender: UIButton) {
-        print("restart")
+        //print("restart")
+        // call function to restart scores
     }
 }
 
