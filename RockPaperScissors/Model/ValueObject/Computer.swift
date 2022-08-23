@@ -32,4 +32,10 @@ public class Computer {
         return computerChoice
     }
     
+    /* function to return the choice for computer
+    func getComputerChoice(computer: String) -> String {
+        let computer = Computer()
+        let answer = computer.createComputerAnswer()
+        return answer
+    } */
 }

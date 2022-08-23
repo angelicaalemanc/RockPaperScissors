@@ -8,22 +8,45 @@
 import Foundation
 
 public class Game {
-
-    let logical = Game()
     
-    //  function to return the choice for computer
-    func getComputerChoice(computer: String) -> String {
-        let computer = Computer()
-        let answer = computer.createComputerAnswer()
-        return answer
-    }
-    
-    //  function to return the choice for computer
-    func getPlayerChoice(player: String) -> String {
-        return player
-    }
-    
-    func gameLogical() {
-        // logical pf the game
+    // logical of the game
+    func gameLogical(computer: String, player: String) -> Int {
+        print("\nPlayer: " + player)
+        print("Computer: " + computer)
+        
+        if (computer == player) {
+            print("tie")
+        }
+        else if (player == "rock") {
+            if (computer == "paper") {
+                //Partida.puntajeComputadora += 1
+                print ("computer scores")
+            } else {
+                //Partida.puntajeComputadora += 1
+                print ("player scores")
+            }
+        }
+        else if (player == "paper") {
+            if (computer == "scissors") {
+                //Partida.puntajeComputadora += 1
+                print ("computer scores")
+            } else {
+                //Partida.puntajeComputadora += 1
+                print ("player scores")
+            }
+        }
+        else if (player == "scissors") {
+            if (computer == "rock") {
+                //Partida.puntajeComputadora += 1
+                print ("computer scores")
+            } else {
+                //Partida.puntajeComputadora += 1
+                print ("player scores")
+            }
+        }
+        else {
+            print("Error en la partida")
+        }
+        return 0
     }
 }
