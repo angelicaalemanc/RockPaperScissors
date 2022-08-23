@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F30513F628B407A200A09166 /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30513F528B407A200A09166 /* Computer.swift */; };
 		F30513FE28B414CD00A09166 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30513FD28B414CD00A09166 /* Game.swift */; };
+		F31ADBB028B575C00013AE41 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ADBAF28B575C00013AE41 /* Scores.swift */; };
 		F3972D4E28AEE3C80064D58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3972D4D28AEE3C80064D58C /* AppDelegate.swift */; };
 		F3972D5028AEE3C80064D58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3972D4F28AEE3C80064D58C /* SceneDelegate.swift */; };
 		F3972D5228AEE3C80064D58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3972D5128AEE3C80064D58C /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		F30513F528B407A200A09166 /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
 		F30513FD28B414CD00A09166 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F31ADBAF28B575C00013AE41 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
 		F3972D4A28AEE3C80064D58C /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3972D4D28AEE3C80064D58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3972D4F28AEE3C80064D58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		F30513F328B4046900A09166 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F31ADBAD28B575740013AE41 /* Util */,
 				F30513F428B404AC00A09166 /* ValueObject */,
 			);
 			path = Model;
@@ -92,9 +95,17 @@
 			isa = PBXGroup;
 			children = (
 				F30513F528B407A200A09166 /* Computer.swift */,
-				F30513FD28B414CD00A09166 /* Game.swift */,
 			);
 			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		F31ADBAD28B575740013AE41 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F30513FD28B414CD00A09166 /* Game.swift */,
+				F31ADBAF28B575C00013AE41 /* Scores.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		F3972D4128AEE3C80064D58C = {
@@ -284,6 +295,7 @@
 				F30513FE28B414CD00A09166 /* Game.swift in Sources */,
 				F3972D5228AEE3C80064D58C /* ViewController.swift in Sources */,
 				F3972D4E28AEE3C80064D58C /* AppDelegate.swift in Sources */,
+				F31ADBB028B575C00013AE41 /* Scores.swift in Sources */,
 				F3972D5028AEE3C80064D58C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

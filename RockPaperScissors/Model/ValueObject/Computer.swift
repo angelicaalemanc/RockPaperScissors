@@ -24,10 +24,9 @@ public class Computer {
                 case 3:
                     return "scissors"
                 default:
-                    return " "
+                    return ""
             }
         }
-        
         // give the value to the function that will the logic
         return computerChoice
     }

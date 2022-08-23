@@ -16,37 +16,37 @@ public class Game {
         
         if (computer == player) {
             print("tie")
+            return 1
         }
         else if (player == "rock") {
             if (computer == "paper") {
-                //Partida.puntajeComputadora += 1
                 print ("computer scores")
+                return 3
             } else {
-                //Partida.puntajeComputadora += 1
                 print ("player scores")
+                return 2
             }
         }
         else if (player == "paper") {
             if (computer == "scissors") {
-                //Partida.puntajeComputadora += 1
                 print ("computer scores")
+                return 3
             } else {
-                //Partida.puntajeComputadora += 1
                 print ("player scores")
+                return 2
             }
         }
         else if (player == "scissors") {
             if (computer == "rock") {
-                //Partida.puntajeComputadora += 1
                 print ("computer scores")
+                return 3
             } else {
-                //Partida.puntajeComputadora += 1
                 print ("player scores")
+                return 2
             }
         }
         else {
-            print("Error en la partida")
+            return 0
         }
-        return 0
     }
 }
