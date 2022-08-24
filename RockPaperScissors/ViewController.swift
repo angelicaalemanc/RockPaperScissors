@@ -17,19 +17,21 @@ class ViewController: UIViewController {
     // outlets for labels changing
     @IBOutlet weak var playerLabel: UILabel!
     @IBOutlet weak var computerLabel: UILabel!
+    @IBOutlet weak var winnerLabel: UILabel!
     
     // function to start the game in every button
     func startGame(playerChoice: String){
         let computerChoice = computer.createComputerAnswer() // get the computer's choice
         let result = game.gameLogical(computer: computerChoice, player: playerChoice) // call the game
         let score = scores.updateScores(value: result) // get the scores updated
-        changeLabels(scores: (score.0, score.1))
+        changeLabels(scores: (score.0, score.1, score.2))
     }
     
-    func changeLabels (scores: (Int, Int)) {
+    func changeLabels (scores: (Int, Int, String)) {
         DispatchQueue.main.async {
             self.playerLabel.text = String(scores.0)
             self.computerLabel.text = String(scores.1)
+            self.winnerLabel.text = "Winner: " + scores.2
         }
     }
 
@@ -57,5 +59,6 @@ class ViewController: UIViewController {
         scores.restartScores()
         self.playerLabel.text = String(0)
         self.computerLabel.text = String(0)
+        self.winnerLabel.text = "Winner: "
     }
 }
