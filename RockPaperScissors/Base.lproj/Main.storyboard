@@ -85,7 +85,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="838-cR-60S" userLabel="Rock">
                                                 <rect key="frame" x="106.5" y="0.0" width="139" height="139"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="rockButton"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="clickRock"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="838-cR-60S" secondAttribute="height" id="owW-z0-ZWP"/>
                                                 </constraints>
@@ -106,7 +106,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiQ-OP-HdU" userLabel="Paper">
                                                 <rect key="frame" x="18.5" y="0.0" width="139" height="139"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="paperButton"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="clickPaper"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JiQ-OP-HdU" secondAttribute="height" id="DK1-Tz-7cp"/>
                                                 </constraints>
@@ -117,7 +117,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwW-wc-O79" userLabel="Scissors">
                                                 <rect key="frame" x="194.5" y="0.0" width="139" height="139"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="scissorsButton"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="clickScissors"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="VwW-wc-O79" secondAttribute="height" id="dm0-HI-3CK"/>
                                                 </constraints>
@@ -141,6 +141,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev4-Ci-mcr">
                                                 <rect key="frame" x="144" y="24.5" width="64" height="21"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="winnerLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -148,6 +149,7 @@
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X8-0z-ecN">
                                                 <rect key="frame" x="114.5" y="88.5" width="123" height="32"/>
                                                 <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="clickRestart"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Restart">

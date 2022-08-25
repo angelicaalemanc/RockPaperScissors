@@ -108,6 +108,20 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		F36D91B628B70CF90054AA98 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F36D91B728B70CFF0054AA98 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
 		F3972D4128AEE3C80064D58C = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +160,8 @@
 		F3972D6328AEE3CA0064D58C /* RockPaperScissorsTests */ = {
 			isa = PBXGroup;
 			children = (
+				F36D91B728B70CFF0054AA98 /* ValueObject */,
+				F36D91B628B70CF90054AA98 /* Util */,
 				F3972D6428AEE3CA0064D58C /* RockPaperScissorsTests.swift */,
 				F3972D6628AEE3CA0064D58C /* Info.plist */,
 			);

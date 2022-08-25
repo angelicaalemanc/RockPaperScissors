@@ -18,8 +18,6 @@ public class Scores {
     func updateScores(value: Int) -> (Int, Int, String) {
         switch value {
             case 1:
-                self.playerScore += 0
-                self.computerScore += 0
                 winner = "No winner. It was a tie."
             case 2:
                 playerScore += 1
@@ -28,8 +26,7 @@ public class Scores {
                 computerScore += 1
                 winner = "CPU"
             default:
-                self.playerScore += 0
-                self.computerScore += 0
+                break
         }
         return (playerScore, computerScore, winner)
     }
