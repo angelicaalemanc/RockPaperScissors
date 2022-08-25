@@ -53,7 +53,6 @@ class ViewController: UIViewController {
         startGame(playerChoice: player) // call funcion game
     }
     
-    
     // button action for restart
     @IBAction func clickRestart(_ sender: UIButton) {
         scores.restartScores()
