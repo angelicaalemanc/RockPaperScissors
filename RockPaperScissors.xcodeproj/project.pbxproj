@@ -19,6 +19,7 @@
 		F3972D5A28AEE3C90064D58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3972D5828AEE3C90064D58C /* LaunchScreen.storyboard */; };
 		F3972D6528AEE3CA0064D58C /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3972D6428AEE3CA0064D58C /* RockPaperScissorsTests.swift */; };
 		F3972D7028AEE3CA0064D58C /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3972D6F28AEE3CA0064D58C /* RockPaperScissorsUITests.swift */; };
+		F3A9A0F828B8178C001D3553 /* ComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9A0F728B8178C001D3553 /* ComputerTests.swift */; };
 		F3B4A00928B7E32F001BB603 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4A00828B7E32F001BB603 /* GameTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		F3972D6B28AEE3CA0064D58C /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3972D6F28AEE3CA0064D58C /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		F3972D7128AEE3CA0064D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A9A0F728B8178C001D3553 /* ComputerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerTests.swift; sourceTree = "<group>"; };
 		F3B4A00828B7E32F001BB603 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		F36D91B728B70CFF0054AA98 /* ValueObject */ = {
 			isa = PBXGroup;
 			children = (
+				F3A9A0F728B8178C001D3553 /* ComputerTests.swift */,
 			);
 			path = ValueObject;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A9A0F828B8178C001D3553 /* ComputerTests.swift in Sources */,
 				F3855FF728B8032700F1849D /* ScoresTests.swift in Sources */,
 				F3972D6528AEE3CA0064D58C /* RockPaperScissorsTests.swift in Sources */,
 				F3B4A00928B7E32F001BB603 /* GameTests.swift in Sources */,
