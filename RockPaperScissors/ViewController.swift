@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var computerLabel: UILabel!
     @IBOutlet weak var winnerLabel: UILabel!
     
-    // function to start the game in every button
+    // function to start the game
     func startGame(playerChoice: String){
         let computerChoice = computer.createComputerAnswer() // get the computer's choice
         let result = game.gameLogical(computer: computerChoice, player: playerChoice) // call the game
@@ -37,23 +37,23 @@ class ViewController: UIViewController {
 
     // button action for the image of rock
     @IBAction func clickRock(_ sender: UIButton) {
-        let player = "rock" // string for player's choice rock
+        let player = "rock" // string for player's choice
         startGame(playerChoice: player) // call funcion game
     }
     
     // button action for the image of paper
     @IBAction func clickPaper(_ sender: UIButton) {
-        let player = "paper" // string for player's choice paper
-        startGame(playerChoice: player) // call funcion game
+        let player = "paper"
+        startGame(playerChoice: player)
     }
     
     // button action for the image of scissors
     @IBAction func clickScissors(_ sender: UIButton) {
-        let player = "scissors" // string for player's choice scissors
-        startGame(playerChoice: player) // call funcion game
+        let player = "scissors"
+        startGame(playerChoice: player)
     }
     
-    // button action for restart
+    // button action for restart (scores and winner)
     @IBAction func clickRestart(_ sender: UIButton) {
         scores.restartScores()
         self.playerLabel.text = String(0)

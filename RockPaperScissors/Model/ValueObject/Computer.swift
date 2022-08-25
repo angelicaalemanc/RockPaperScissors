@@ -8,13 +8,12 @@
 import Foundation
 
 public class Computer {
-    // generate a random number for the computer to get its choice for the game
-    
+
     func createComputerAnswer() -> String {
         // generate a random number for the computer to get its choice for the game
         let cpuComputer = Int.random(in: 1...3)
         
-        // asign a choice for the computer according to the previous number
+        // asign a choice according to the previous number
         var computerChoice : String {
             switch cpuComputer {
                 case 1:
@@ -27,14 +26,7 @@ public class Computer {
                     return ""
             }
         }
-        // give the value to the function that will the logic
         return computerChoice
     }
     
-    /* function to return the choice for computer
-    func getComputerChoice(computer: String) -> String {
-        let computer = Computer()
-        let answer = computer.createComputerAnswer()
-        return answer
-    } */
 }

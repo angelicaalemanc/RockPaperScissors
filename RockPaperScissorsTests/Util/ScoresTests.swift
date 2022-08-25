@@ -20,17 +20,14 @@ class ScoresTests: XCTestCase {
 
     let scores = Scores()
 
-    func testGameRockRock() throws {
+    func testScoresChanging() throws {
         // GIVEN
         let caseGame = 2 // case 2: user wins
-        let playerScore = 0 // both scores are 0
-        let computerScore = 0
-        let winner = ""
-    
-        // WHEN the scores have to be updated, the function returns boths scors and the winner
+
+        // WHEN the scores have to be updated
         let scoreResult = scores.updateScores(value: caseGame)
         
-        // THEN for a case 2, the player should make a point and be the winner
+        // THEN the function returns boths scores and the winner. for a case 2, the player should make a point and be the winner
         let expectedResultPlayer = 1
         let expectedResultComputer = 0 // the computer doesn't get a point
         let expectedWinner = "Player"

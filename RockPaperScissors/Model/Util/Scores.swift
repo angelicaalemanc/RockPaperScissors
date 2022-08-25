@@ -9,12 +9,12 @@ import Foundation
 
 public class Scores {
     
-    // create game object to get instructions
+    // create variables
     var playerScore = 0
     var computerScore = 0
     var winner = ""
     
-    // Update scores
+    // Update scores according to the case (tie/player winner/cpu winner)
     func updateScores(value: Int) -> (Int, Int, String) {
         switch value {
             case 1:
